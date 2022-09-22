@@ -22,9 +22,9 @@ public class Robot extends TimedRobot {
 
   @Override
   public void robotInit() {
-    WPI_TalonSRX rFMotor = new WPI_TalonSRX(2);
-    WPI_TalonSRX lFMotor = new WPI_TalonSRX(1);
-    WPI_TalonSRX rRMotor = new WPI_TalonSRX(3);
+    WPI_TalonSRX rFMotor = new WPI_TalonSRX(3);
+    WPI_TalonSRX lFMotor = new WPI_TalonSRX(2);
+    WPI_TalonSRX rRMotor = new WPI_TalonSRX(1);
     WPI_TalonSRX lRMotor = new WPI_TalonSRX(4);
 
     rFMotor.setInverted(true);
